@@ -4,7 +4,7 @@ class Game{
     constructor(){
         this.totalMoney= 0;
         this.totalCCperS= 0;
-        this.totalCCperClick = 1;
+        this.totalCCperClick = parseFloat(document.querySelector("#button-click-12 .value").innerHTML);
         this.ADD = 0; 
         this.HTML5 = 0;
         this.intervalSum = setInterval(()=>{
@@ -239,13 +239,44 @@ class Game{
             this.win = true;
         }
     }
-    showWinScreen(){
-        const parent = document.getElementById("bts-section");
-        const son = document.querySelector(".bts-div")
-        const rmvSon = parent.removeChild(son)
-        
-        let canvasNode = document.getElementById("canvas-div");
-        canvasNode.style.width ="100vw"
+    resetButton(){
+        const canvas =  document.getElementById("cvs")
+        const ctx = canvas.getContext("2d")
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+
+
+        this.totalMoney= 0;
+        this.totalCCperS= 0;
+        this.totalCCperClick = 1;
+        this.ADD = 0; 
+        this.HTML5 = 0;
+        this.intervalSum = setInterval(()=>{
+            this.totalMoney += this.totalCCperS/10
+            this.updateTotalMoney();
+        },100)
+        this.computador = 0;
+        this.CSS = 0;
+        this.python = 0;
+        this.steam = 0;
+        this.bootstrap = 0;
+        this.javascript = 0;
+        this.servidor = 0;
+        this.react = 0;
+        this.php= 0;
+        this.win=false;
+        this.updateCCperCliker()
+        this.updateCCperS()
+        document.querySelector("#button-click-1 .qtd").innerHTML = this.ADD
+        document.querySelector("#button-click-11 .qtd").innerHTML = this.php
+        document.querySelector("#button-click-10 .qtd").innerHTML = this.react
+        document.querySelector("#button-click-9 .qtd").innerHTML = this.servidor
+        document.querySelector("#button-click-8 .qtd").innerHTML = this.javascript
+        document.querySelector("#button-click-7 .qtd").innerHTML = this.bootstrap
+        document.querySelector("#button-click-6 .qtd").innerHTML = this.steam
+        document.querySelector("#button-click-5 .qtd").innerHTML = this.python
+        document.querySelector("#button-click-4 .qtd").innerHTML = this.CSS
+        document.querySelector("#button-click-3 .qtd").innerHTML = this.computador
+        document.querySelector("#button-click-2 .qtd").innerHTML = this.HTML5
         
 
     }

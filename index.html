@@ -37,18 +37,20 @@
         </div>
     </section>
     <h1 id="jogo"><img src="IMAGENS/LOGO.png" alt="logo-adventureDev"></h1>
-    <section class="cc-style">
-        <div>
-            <h3 class="total-cc">Total: <span id="qtd-tt-cc">0</span><span class="quantidade-grafia"></span>CC</h3>
-        </div>
-        <div>
-            <h3 class="clicker-style"><button id="bts-clicker"><img src="IMAGENS/seta preta.png" alt="clicker"></button><span id="cc-click">1</span>/cc <div class="div-cc-s"><span id="cc-per-s">0</span>cc/s</div></h3>
-        </div>
-    </section>     
+    <div class=start-div> <button id=btn-start>Reset</button></div>
+     
     
     <section id="bts-section">
         <div class="bts-div">
             <div>
+                <section class="cc-style">
+                    <div>
+                        <h3 class="total-cc">Total: <span id="qtd-tt-cc">0</span><span class="quantidade-grafia"></span>CC</h3>
+                    </div>
+                    <div>
+                        <h3 class="clicker-style"><button id="bts-clicker"><img src="IMAGENS/seta preta.png" alt="clicker"></button><div class="div-cc-click"><span id="cc-click">1</span>/cc</div> <div class="div-cc-s"><span id="cc-per-s">0</span>cc/s</div></h3>
+                    </div>
+                </section>  
                 <ul>
                     <li><button id="button-click-1"><img src="IMAGENS/ad-solid.svg" alt="bit-coin"><br>Propaganda<br> 2.5 /click <br>price: <span class="value">20</span> cc<div class="qdt-pos"><span class="qtd">0</span>x</div></button></li>
                     <li><button id="button-click-2"><img src="IMAGENS/html5-brands.svg" alt="bit-coin"><br>HTML5<br> 30.0 /click <br>price: <span class="value">225</span> cc<div class="qdt-pos"><span class="qtd">0</span>x</div></button></li>
@@ -82,6 +84,14 @@
             </div>
         </div>
         <div id="canvas-div">
+            <!-- <section class="cc-style">
+                <div>
+                    <h3 class="total-cc">Total: <span id="qtd-tt-cc">0</span><span class="quantidade-grafia"></span>CC</h3>
+                </div>
+                <div>
+                    <h3 class="clicker-style"><button id="bts-clicker"><img src="IMAGENS/seta preta.png" alt="clicker"></button><span id="cc-click">1</span>/cc <div class="div-cc-s"><span id="cc-per-s">0</span>cc/s</div></h3>
+                </div>
+            </section>     -->
             <canvas id="cvs"></canvas>
         </div> 
     </section>

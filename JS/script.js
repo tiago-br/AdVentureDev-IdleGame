@@ -2,11 +2,13 @@
 
 
 window.onload = () =>{
+
     const img = new Image()
     img.src ='/IMAGENS/winscreen.png'
     // const imgAd = new Image()
     // imgAd.src = '/IMAGENS/kwai-logo.png'
-    let game = new Game;
+         
+            let game = new Game;
             document.getElementById("bts-clicker").onclick = ()=>{
                 game.clickButton()
             }
@@ -46,18 +48,21 @@ window.onload = () =>{
             document.getElementById("button-click-12").onclick = ()=>{
                 
                 game.buyWinGame()
-
                 if(game.win){
                     game.totalMoney = 0
                     game.totalCCperClick = 0
                     game.totalCCperS = 0
                     game.updateTotalMoney()
-                    game.showWinScreen()
+                    // game.showWinScreen()
                     let canvas = document.getElementById("cvs")
                     let ctx = canvas.getContext("2d")
                     ctx.clearRect(0,0,canvas.width,canvas.height);
-                    ctx.drawImage(img,30,10,240,120)
+                    ctx.drawImage(img,20,45,270,90)
                 }
             }
-}
+            document.getElementById("btn-start").onclick = ()=>{
 
+                game.resetButton()
+            }
+                 
+}
