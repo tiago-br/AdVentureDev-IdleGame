@@ -1,13 +1,9 @@
-
-
-
-window.onload = () =>{
-
-    const img = new Image()
+    var img = new Image()
     img.src ='/IMAGENS/winscreen.png'
     // const imgAd = new Image()
     // imgAd.src = '/IMAGENS/kwai-logo.png'
-         
+
+    
             let game = new Game;
             document.getElementById("bts-clicker").onclick = ()=>{
                 game.clickButton()
@@ -57,12 +53,11 @@ window.onload = () =>{
                     let canvas = document.getElementById("cvs")
                     let ctx = canvas.getContext("2d")
                     ctx.clearRect(0,0,canvas.width,canvas.height);
-                    ctx.drawImage(img,20,45,270,90)
+                    ctx.drawImage(img,20,35,260,80)
                 }
             }
             document.getElementById("btn-start").onclick = ()=>{
-
                 game.resetButton()
             }
                  
-}
+

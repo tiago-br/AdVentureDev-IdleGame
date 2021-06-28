@@ -5,6 +5,7 @@ body{
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+    background-color: rgba(39, 177, 39, 0.568);
     
 }
 nav {
@@ -79,10 +80,18 @@ nav > ul > li > a:hover{
 
 .cc-style{
     display: flex;
-    height: 25vh; 
+    height: 15vh; 
+    width: 40vw;
     color:black;
     justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(9, 248, 9);
+    border:2px solid black;
+    border-radius: 10px; 
+    position: absolute;
+    left:55vw;
+    top:45vh;
+    
     
 }
 
@@ -118,11 +127,16 @@ h1 img{
 }
 .bts-div {
     width: 50vw;
-    height: 100vh;
-    background-color: rgb(114, 110, 110);
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    border:3px solid black;
+    border-radius: 10px;
+    margin-left: 3vw;
+    background-image: url("/IMAGENS/tela-2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .bts-div  ul{
@@ -132,8 +146,9 @@ h1 img{
     align-content: space-around;  
     margin: 0;
     padding: 0;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    
 }
 
 .bts-div ul>li{
@@ -145,15 +160,11 @@ h1 img{
     width: 14vw;
     border: 1px solid white;
     height:7vw;
-    background-color: rgb(39, 177, 39);
+    /* background-color:red; */
     font-size: 0.7rem;
 
 }
-/* rgb(39, 177, 39) */
 
-.bts-div ul>li>button:hover{
-    background-color:rgb(9, 248, 9);
-}
 .bts-div ul>li>button:active{
     color:white;
     background-color: black;
@@ -263,23 +274,20 @@ canvas{
     height: 5vh;
 }
 
-.cc-style {
-    position: absolute;
-    left:49.5vw;
-    width: 48.5vw;
-    height: 30vh;
-}
+
 
 .start-div {
     display: flex;
-    height: 15vh;
     width: auto;
     align-items: center;
     justify-content: center;
+    margin-top: 1vw;
+    
 
 }
 
 .start-div button { 
+    
     font-size: 1.4rem;
     width: 14vw;
     height: 7vh;
@@ -301,4 +309,13 @@ canvas{
     left:1.6vw
 }
 
+.green {
+    background-color: rgba(39, 177, 39, 0.568);
+}
+.green:hover{
+    background-color: rgba(9, 248, 9, 0.658);
+}
 
+.red {
+    background-color:rgba(231, 31, 31, 0.719);
+}
