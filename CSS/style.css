@@ -158,7 +158,8 @@ h1 img{
 }
 .bts-div ul>li>button{
     width: 14vw;
-    border: 1px solid white;
+    border: 1px solid black;
+    border-radius: 15px;
     height:7vw;
     /* background-color:red; */
     font-size: 0.7rem;
@@ -266,14 +267,18 @@ canvas{
 #bts-clicker{
     border:none;
     background-color: white;
+    
 
 }
 
 #bts-clicker img:active{
     width: 4vw;
     height: 5vh;
+    
 }
-
+#bts-clicker img{
+    cursor:url(/IMAGENS/clicker-do-mouse.cur),pointer;
+}
 
 
 .start-div {
@@ -311,11 +316,22 @@ canvas{
 
 .green {
     background-color: rgba(39, 177, 39, 0.568);
+
 }
 .green:hover{
     background-color: rgba(9, 248, 9, 0.658);
+    cursor:url(/IMAGENS/clicker-do-mouse.cur),pointer;
 }
 
 .red {
     background-color:rgba(231, 31, 31, 0.719);
+    cursor:not-allowed;
+}
+
+#btn-start{
+    cursor:pointer;
+}
+
+body{
+    cursor:url(/IMAGENS/seta.cur) 4 12,default;
 }
