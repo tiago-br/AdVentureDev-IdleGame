@@ -64,7 +64,7 @@ class Game{
         if(price <= this.totalMoney){
             this.addToTotalMoney(-price)
             this.updateTotalMoney()
-            this.totalCCperClick += 300
+            this.totalCCperClick += 30
             this.updateCCperCliker()
             price *=1.2
             document.querySelector("#button-click-2 .value").innerHTML = price.toFixed(1)
