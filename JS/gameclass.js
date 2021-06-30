@@ -20,6 +20,7 @@ class Game{
         this.react = 0;
         this.php= 0;
         this.win=false;
+        this.song = false;
         
     }
     addToTotalMoney(value){
@@ -236,11 +237,6 @@ class Game{
         this.totalCCperClick = 1;
         this.ADD = 0; 
         this.HTML5 = 0;
-        this.intervalSum = setInterval(()=>{
-            this.totalMoney += this.totalCCperS/10
-            this.updateTotalMoney();
-            this.checkCanbuy();
-        },100)
         this.computador = 0;
         this.CSS = 0;
         this.python = 0;
@@ -376,6 +372,26 @@ class Game{
             document.querySelector("#button-click-12").classList.remove("green")
             document.querySelector("#button-click-12").classList.add("red")
         }
+    }
+    playMusic(){
+        let audioplay = document.getElementById("audio-game")
+        let songloop = document.createAttribute("loop")
+        let mutesong = document.createAttribute("muted")
+        let songimg = document.querySelector("#btn-music img")
+        
+        audioplay.setAttributeNode(songloop)
+        if(!this.song){
+            this.song = true;      
+            songimg.src = "/IMAGENS/som-on.svg"
+            audioplay.play()
+
+        }else{
+            this.song = false;
+            songimg.src = "/IMAGENS/son-off.svg"
+            audioplay.pause()
+            
+        }
+        
     }
 
 }

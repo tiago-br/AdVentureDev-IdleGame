@@ -54,5 +54,8 @@ document.getElementById("button-click-12").onclick = ()=>{
 document.getElementById("btn-start").onclick = ()=>{
     game.resetButton()
 }
+document.getElementById("btn-music").onclick = ()=>{
+    game.playMusic()
+}
                  
 

@@ -336,6 +336,11 @@ canvas{
     cursor:pointer;
 }
 
-body{
-    cursor:url(/IMAGENS/seta.cur) 4 12,default;
+#btn-music{
+    margin-left: 5vw;
+}
+
+#btn-music img{
+    height: 3vw;
+    width: 2vw;
 }
