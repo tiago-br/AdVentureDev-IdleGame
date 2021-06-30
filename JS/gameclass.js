@@ -55,9 +55,8 @@ class Game{
             this.ADD += 1
             document.querySelector("#button-click-1 .qtd").innerHTML = this.ADD
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyHTML5(){
         let price = parseFloat(document.querySelector("#button-click-2 .value").innerHTML)
@@ -71,9 +70,8 @@ class Game{
             this.HTML5 += 1
             document.querySelector("#button-click-2 .qtd").innerHTML = this.HTML5
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyComputador(){
         let price = parseFloat(document.querySelector("#button-click-3 .value").innerHTML)
@@ -89,9 +87,8 @@ class Game{
             
             
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyCSS(){
         let price = parseFloat(document.querySelector("#button-click-4 .value").innerHTML)
@@ -105,9 +102,8 @@ class Game{
             this.CSS += 1
             document.querySelector("#button-click-4 .qtd").innerHTML = this.CSS
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyPython(){
         let price = parseFloat(document.querySelector("#button-click-5 .value").innerHTML)
@@ -121,9 +117,8 @@ class Game{
             this.python += 1
             document.querySelector("#button-click-5 .qtd").innerHTML = this.python
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buySteam(){
         let price = parseFloat(document.querySelector("#button-click-6 .value").innerHTML)
@@ -139,9 +134,8 @@ class Game{
             
             
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyBootstrap(){
         let price = parseFloat(document.querySelector("#button-click-7 .value").innerHTML)
@@ -155,9 +149,8 @@ class Game{
             this.bootstrap += 1
             document.querySelector("#button-click-7 .qtd").innerHTML = this.bootstrap
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyJavaScript(){
         let price = parseFloat(document.querySelector("#button-click-8 .value").innerHTML)
@@ -173,9 +166,8 @@ class Game{
             
             
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyServidor(){
         let price = parseFloat(document.querySelector("#button-click-9 .value").innerHTML)
@@ -191,9 +183,8 @@ class Game{
             
             
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyReact(){
         let price = parseFloat(document.querySelector("#button-click-10 .value").innerHTML)
@@ -209,9 +200,8 @@ class Game{
             
             
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyPHP(){
         let price = parseFloat(document.querySelector("#button-click-11 .value").innerHTML)
@@ -227,9 +217,8 @@ class Game{
             
             
         }
-        else{
-            alert("você não tem dinheiro suficiente")
-        }
+        
+        
     }
     buyWinGame(){
         let price = parseFloat(document.querySelector("#button-click-12 .value").innerHTML)

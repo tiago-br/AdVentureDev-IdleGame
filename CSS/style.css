@@ -161,15 +161,10 @@ h1 img{
     border: 1px solid black;
     border-radius: 15px;
     height:7vw;
-    /* background-color:red; */
     font-size: 0.7rem;
 
 }
 
-.bts-div ul>li>button:active{
-    color:white;
-    background-color: black;
-}
 
 #canvas-div{
  height: 100vh;
@@ -322,8 +317,17 @@ canvas{
     background-color: rgba(9, 248, 9, 0.658);
     cursor:url(/IMAGENS/clicker-do-mouse.cur),pointer;
 }
+.green:active{
+    background-color: black;
+    color:white;
+}
+
 
 .red {
+    background-color:rgba(231, 31, 31, 0.719);
+    cursor:not-allowed;
+}
+.red button:active{
     background-color:rgba(231, 31, 31, 0.719);
     cursor:not-allowed;
 }
