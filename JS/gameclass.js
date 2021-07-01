@@ -2,7 +2,7 @@ class Game{
     constructor(){
         this.totalMoney= 0;
         this.totalCCperS= 0;
-        this.totalCCperClick = 1;
+        this.totalCCperClick = parseFloat(document.querySelector("#button-click-12 .value").innerHTML);
         this.ADD = 0; 
         this.HTML5 = 0;
         this.intervalSum = setInterval(()=>{
@@ -226,6 +226,10 @@ class Game{
         if(price <= this.totalMoney){
             this.addToTotalMoney(-price)
             this.win = true;
+            this.song = true;
+            this.playMusic()
+            const audioWin = document.getElementById("audio-win");
+            audioWin.play()
         }
     }
     resetButton(){
@@ -376,7 +380,6 @@ class Game{
     playMusic(){
         let audioplay = document.getElementById("audio-game")
         let songloop = document.createAttribute("loop")
-        let mutesong = document.createAttribute("muted")
         let songimg = document.querySelector("#btn-music img")
         
         audioplay.setAttributeNode(songloop)
