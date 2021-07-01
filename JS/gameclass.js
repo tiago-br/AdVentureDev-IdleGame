@@ -2,7 +2,7 @@ class Game{
     constructor(){
         this.totalMoney= 0;
         this.totalCCperS= 0;
-        this.totalCCperClick = parseFloat(document.querySelector("#button-click-12 .value").innerHTML);
+        this.totalCCperClick = 1;
         this.ADD = 0; 
         this.HTML5 = 0;
         this.intervalSum = setInterval(()=>{
