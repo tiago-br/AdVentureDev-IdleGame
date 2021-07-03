@@ -1,7 +1,7 @@
 ![AdVentureDev](/IMAGENS/LOGO.png)
 <br>
 
-### link para o jogo:  <https://www.google.com.br/>
+### link para o jogo:  <https://tiago-br.github.io/AdVentureDev-IdleGame/>
 <hr>
 <br>
 
