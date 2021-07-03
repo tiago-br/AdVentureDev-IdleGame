@@ -5,7 +5,7 @@
 
 
 ## Introdução
-<hr>
+
 
 
 #### AdVentureDev é um jogo no formato IDLE,jogo incremental, inspirado no jogo AdVenture Capitalist.
@@ -15,7 +15,7 @@ O jogo consiste em adquirir cada vez mais "cc", moeda do jogo, tendo como objeti
 
 
 ## Como Jogar 
-<hr>
+
 
 
 
