@@ -1,6 +1,6 @@
 window.onload = ()=> {
     var img = new Image()
-    img.src ='/IMAGENS/winscreen.png'
+    img.src ='./IMAGENS/winscreen.png'
    
     let game = new Game;
     document.getElementById("bts-clicker").onclick = ()=>{

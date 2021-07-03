@@ -385,12 +385,12 @@ class Game{
         audioplay.setAttributeNode(songloop)
         if(!this.song){
             this.song = true;      
-            songimg.src = "/IMAGENS/som-on.svg"
+            songimg.src = "./IMAGENS/som-on.svg"
             audioplay.play()
 
         }else{
             this.song = false;
-            songimg.src = "/IMAGENS/son-off.svg"
+            songimg.src = "./IMAGENS/son-off.svg"
             audioplay.pause()
             
         }
