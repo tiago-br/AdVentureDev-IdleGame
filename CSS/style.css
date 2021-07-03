@@ -134,7 +134,7 @@ h1 img{
     border:3px solid black;
     border-radius: 10px;
     margin-left: 3vw;
-    background-image: url("/IMAGENS/tela-2.jpg");
+    background-image: url("./IMAGENS/tela-2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
