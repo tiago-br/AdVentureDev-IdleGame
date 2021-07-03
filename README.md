@@ -3,13 +3,12 @@
 
 #### link para o jogo:  <https://tiago-br.github.io/AdVentureDev-IdleGame/>
 
-<br>
 
 ## Introdução
 <hr>
 
 
-### AdVentureDev é um jogo no formato IDLE,jogo incremental, inspirado no jogo AdVenture Capitalist.
+#### AdVentureDev é um jogo no formato IDLE,jogo incremental, inspirado no jogo AdVenture Capitalist.
 Porém, diferente da maioria dos IDLES, AdVentureDEV é um jogo rápido que possui um fim, sendo possível de finalizalo em poucos minutos.
 O jogo consiste em adquirir cada vez mais "cc", moeda do jogo, tendo como objetivo final acumar moedas o suficiente para poder compra o último botão **"aposentar"**.
 <br>
