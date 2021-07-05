@@ -272,7 +272,7 @@ canvas{
     
 }
 #bts-clicker img{
-    cursor:url(/IMAGENS/clicker-do-mouse.cur),pointer;
+    cursor:url(../IMAGENS/clicker-do-mouse.cur),pointer;
 }
 
 
@@ -315,7 +315,7 @@ canvas{
 }
 .green:hover{
     background-color: rgba(9, 248, 9, 0.658);
-    cursor:url(/IMAGENS/clicker-do-mouse.cur),pointer;
+    cursor:url(../IMAGENS/clicker-do-mouse.cur),pointer;
 }
 .green:active{
     background-color: black;
